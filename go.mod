@@ -1,6 +1,8 @@
 module lastknight.arpityadav.net
 
-go 1.22.5
+go 1.23.0
+
+toolchain go1.23.8
 
 require github.com/go-sql-driver/mysql v1.8.1
 
@@ -11,4 +13,5 @@ require (
 	github.com/go-playground/form/v4 v4.2.1 // indirect
 	github.com/julienschmidt/httprouter v1.3.0 // indirect
 	github.com/justinas/alice v1.2.0 // indirect
+	golang.org/x/crypto v0.37.0 // indirect
 )
